@@ -78,3 +78,14 @@
   - HibernationFixUp
  - Now eject your USB drive and remove it from the machine.
  - Reboot and ensure you can boot from your target drive.
+
+## Fixing USB so all ports work
+
+ - Use this tool here to generate a kext
+ - Mount the EFI of the boot dir using Clover Configurator
+ - Copy resulting .kext file over to EFI volumes kext files (place in Others folder)
+ - Reboot, and all USB devices work, and no more power warnings!
+
+Thanks corpnewt!
+
+https://github.com/corpnewt/USBMap
