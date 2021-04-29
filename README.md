@@ -83,7 +83,7 @@
 
  - Use this tool here to generate a kext
  - Mount the EFI of the boot dir using Clover Configurator
- - Copy resulting .kext file over to EFI volumes kext files (place in Others folder)
+ - Copy resulting .kext file over to EFI volumes kext files so its loaded on boot (/Volumes/EFI/EFI/CLOVER/kexts/Other/)
  - Reboot, and all USB devices work, and no more power warnings!
 
 Thanks corpnewt!
