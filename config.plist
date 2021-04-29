@@ -25,7 +25,7 @@
 				<key>FixSBUS</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixUSB</key>
 				<false/>
 			</dict>
@@ -37,13 +37,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					UEVHUA==
-					</data>
+					<data>UEVHUA==</data>
 					<key>Replace</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -51,13 +47,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
+					<data>SEVDSQ==</data>
 					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
+					<data>SU1FSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -65,13 +57,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
+					<data>U0FUMA==</data>
 					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
+					<data>U0FUQQ==</data>
 				</dict>
 			</array>
 		</dict>
@@ -88,6 +76,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>darkwake=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -99,6 +89,16 @@
 	<dict>
 		<key>Type</key>
 		<string>0x0601</string>
+	</dict>
+	<key>Devices</key>
+	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>Inject</key>
+			<integer>7</integer>
+			<key>ResetHDA</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
